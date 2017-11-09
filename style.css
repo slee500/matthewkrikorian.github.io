@@ -51,14 +51,3 @@ img {
 .blue {
         color: #0000a0;
 }
-
-.icon{max-width:70px;}
-.icon span {
-    zoom: 30%;
-    height: 20px;
-    width: 20px;
-    display: inline-block;
-}
-.icon span:nth-child(3n+3) {
-
-}
