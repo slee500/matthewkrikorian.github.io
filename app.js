@@ -1,12 +1,12 @@
 typer('body')
   .line()
-  .line('<span style="color: #2aa198">krikorian@home</span>:</span><span style="color: #268bd2">~</span> $ </span>', 0)
+  .line('<span style="color: #df005e">krikorian@home</span>:</span><span style="color: #53d1ed">~</span> $ </span>', 0)
   .pause(750)
 
   // cd ~/
   .continue('cd ~/site', 100)
   .line()
-  .line('<span style="color: #2aa198">krikorian@home</span>:</span><span style="color: #268bd2">~/site</span> $ </span>', 0)
+  .line('<span style="color: #df005e">krikorian@home</span>:</span><span style="color: #53d1ed">~/site</span> $ </span>', 0)
   .pause(750)
 
   // ls -al
@@ -21,7 +21,7 @@ typer('body')
   .line('-rw-r--r--    1 krikorian  staff      327 Aug  8 23:47 profexperience.txt', 0)
   .line('lrw-------    1 krikorian  staff     7354 Aug  6 23:09 resume -> <a href="MatthewKrikorianResume.pdf">/etc/resume.pdf</a>', 0)
   .line()
-  .line('<span style="color: #2aa198">krikorian@home</span>:</span><span style="color: #268bd2">~/site</span> $ </span>', 0)
+  .line('<span style="color: #df005e">krikorian@home</span>:</span><span style="color: #53d1ed">~/site</span> $ </span>', 0)
   .pause(1500) // long wait while you look at items in dir
 
   // cat aboutme.txt
@@ -30,9 +30,9 @@ typer('body')
   .line()
   .line('Hi, I&apos;m Matthew!', 0)
   .line()
-  .line('I&apos;m an undergrad student at the University of Illinois at Urbana Champaign studying Computer Engineering. My interests are in Artificial Intelligence and Human-Computer Interaction. I&apos;m currently a junior and interning at ViaSat in the Summer.', 0)
+  .line('I&apos;m an undergrad student at the University of Illinois at Urbana Champaign studying Computer Engineering. My interests are in Artificial Intelligence and Human-Computer Interaction. I&apos;m currently a junior and will be interning at ViaSat in the Summer.', 0)
   .line()
-  .line('<span style="color: #2aa198">krikorian@home</span>:</span><span style="color: #268bd2">~/site</span> $ </span>', 0)
+  .line('<span style="color: #df005e">krikorian@home</span>:</span><span style="color: #53d1ed">~/site</span> $ </span>', 0)
   .pause(1250)
 
   // cat profexperience.txt && cat futureplans.txt
@@ -47,7 +47,7 @@ typer('body')
   .line()
   .line('Summer 2016: Undergraduate Research Assistant at UIUC',0)
   .line()
-  .line('<span style="color: #2aa198">krikorian@home</span>:</span><span style="color: #268bd2">~/site</span> $ </span>', 0)
+  .line('<span style="color: #df005e">krikorian@home</span>:</span><span style="color: #53d1ed">~/site</span> $ </span>', 0)
   .pause(1250)
 
   // cat contactme.txt
@@ -61,7 +61,7 @@ typer('body')
   .line('<a href="https://www.linkedin.com/in/mattkrikorian/"><img src="linkedin.png" alt="LinkedIn" height="21" width="21"></a>', 0)
   .continue(' <a href="https://github.com/matthewkrikorian"><img src="github.png" alt="GitHub" height="21" width="21"></a>', 0)
   .line()
-  .line('<span style="color: #2aa198">krikorian@home</span>:</span><span style="color: #268bd2">~/site</span> $ </span>', 0)
+  .line('<span style="color: #df005e">krikorian@home</span>:</span><span style="color: #53d1ed">~/site</span> $ </span>', 0)
   .pause(1250)
 
   // sudo shutdown -h now
@@ -70,7 +70,7 @@ typer('body')
 
   //.line('</span>', 0)
 
-  .cursor({block: true, blink: 'hard', color: '#fdf6e3'})
+  .cursor({block: true, blink: 'hard', color: '#f6f7ee'})
 ;
 
 // use http://manytools.org/image/colorize-filter/ to color icons
