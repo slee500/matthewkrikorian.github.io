@@ -60,8 +60,7 @@ typer('body')
   .pause(1250)
 
   // sudo shutdown -h now
-  .continue('kill -9 $(ps -p $PPID -o ppid=)', 100)
-  .line()
+  .continue('kill -9 $(ps -p $PPID -o ppid=)')
 
   //.line('</span>', 0)
 
