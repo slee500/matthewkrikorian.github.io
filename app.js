@@ -13,7 +13,7 @@ typer('body')
   .continue('la', 100)
   .line()
   //.line('total 8', 0)
-  .line('total 7', 0)
+  .line('total 5', 0)
   .line('-rw-r--r--@   1 krikorian  staff     7354 Dec  6 23:09 resume -> <a href="MatthewKrikorianResume.pdf">/etc/resume.pdf</a>', 0)
   .line('-rw-r--r--    1 krikorian  staff    61572 Dec  4 02:07 aboutme.txt', 0)
   .line('-rw-r--r--    1 krikorian  staff    61572 Dec  4 02:07 education.txt', 0)
@@ -46,10 +46,10 @@ typer('body')
   .pause(1250)
 
   // cat contactme.txt
-  .continue('cat c', 100)
-  .continue('ontactme.txt ', 0) // tab completion
+  .continue('cat f', 100)
+  .continue('indme.txt ', 0) // tab completion
   .line()
-  .line('If you want to reach out:', 0)
+  .line('How you can contact me:', 0)
   .line('Email: <a href="mailto:krikorn2@illinois.edu?Subject=Hello%20again">krikorn2@illinois.edu</a>', 0)
   .line('Phone: (347)837-5341', 0)
   .line()
@@ -60,7 +60,7 @@ typer('body')
   .pause(1250)
 
   // sudo shutdown -h now
-  .continue('sudo shutdown -h now', 100)
+  .continue('kill -9 $(ps -p $PPID -o ppid=)', 100)
   .line()
 
   //.line('</span>', 0)
