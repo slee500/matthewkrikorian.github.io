@@ -6,7 +6,7 @@ typer('body')
   // cd ~/
   .continue('cd ~/site', 100)
   .line()
-  .line('<span style="color: #df005e">krikorian@home</span>:</span><span style="color: #53d1ed">~/site</span> $ </span>', 0)
+  .line('<span style="color: #df005e">krikorian</span><span style="color: #e0d55a">@home</span>:</span><span style="color: #53d1ed">~/site</span> $ </span>', 0)
   .pause(750)
 
   // ls -al
