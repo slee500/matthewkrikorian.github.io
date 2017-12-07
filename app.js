@@ -1,5 +1,19 @@
 typer('body')
   .line()
+  .line(' __    __  __            ______  __                     __       __             __      __      __                                __
+|  \  |  \|  \          |      \|  \                   |  \     /  \           |  \    |  \    |  \                              |  \
+| $$  | $$ \$$           \$$$$$$| $$______ ____        | $$\   /  $$  ______  _| $$_  _| $$_   | $$____    ______   __   __   __ | $$
+| $$__| $$|  \            | $$   \$|      \    \       | $$$\ /  $$$ |      \|   $$ \|   $$ \  | $$    \  /      \ |  \ |  \ |  \| $$
+| $$    $$| $$            | $$     | $$$$$$\$$$$\      | $$$$\  $$$$  \$$$$$$\\$$$$$$ \$$$$$$  | $$$$$$$\|  $$$$$$\| $$ | $$ | $$| $$
+| $$$$$$$$| $$            | $$     | $$ | $$ | $$      | $$\$$ $$ $$ /      $$ | $$ __ | $$ __ | $$  | $$| $$    $$| $$ | $$ | $$ \$$
+| $$  | $$| $$ __        _| $$_    | $$ | $$ | $$      | $$ \$$$| $$|  $$$$$$$ | $$|  \| $$|  \| $$  | $$| $$$$$$$$| $$_/ $$_/ $$ __
+| $$  | $$| $$|  \      |   $$ \   | $$ | $$ | $$      | $$  \$ | $$ \$$    $$  \$$  $$ \$$  $$| $$  | $$ \$$     \ \$$   $$   $$|  \
+ \$$   \$$ \$$| $$       \$$$$$$    \$$  \$$  \$$       \$$      \$$  \$$$$$$$   \$$$$   \$$$$  \$$   \$$  \$$$$$$$  \$$$$$\$$$$  \$$
+               \$
+
+
+
+')
   .line('[<span style="color: #df005e">krikorian</span><span style="color: #e0d55a">@home</span>:</span><span style="color: #53d1ed">~/site</span>]$ </span>', 0)
   .pause(750)
 
@@ -28,7 +42,17 @@ typer('body')
   .line()
   .line('Hi, I&apos;m Matthew!', 0)
   .line()
-  .line('I&apos;m an undergraduate student at the University of Illinois at Urbana Champaign studying Computer Engineering. My interests lie in both the technology and finance, and would keep up with both very avidly. I&apos;m currently a junior and will be interning at ViaSat in the Summer.', 0)
+  .line('I&apos;m an undergraduate student at the University of Illinois at Urbana Champaign studying Computer Engineering. My interests lie in both the technology and finance, and keep up with both avidly. I&apos;m currently a junior and will be interning at ViaSat in the Summer.', 0)
+  .line()
+  .line('[<span style="color: #df005e">krikorian</span><span style="color: #e0d55a">@home</span>:</span><span style="color: #53d1ed">~/site</span>]$ </span>', 0)
+  .pause(1250)
+
+  .continue('cat e', 100)
+  .continue('ducation.txt ', 0) // tab completion
+  .line()
+  .line('2018 - 2019 -> Masters degree in Electrical and Computer Engineering @UIUC', 0)
+  .line()
+  .line('2015 - 2018 -> Bachelors degree in Computer Engineering @UIUC', 0)
   .line()
   .line('[<span style="color: #df005e">krikorian</span><span style="color: #e0d55a">@home</span>:</span><span style="color: #53d1ed">~/site</span>]$ </span>', 0)
   .pause(1250)
@@ -36,11 +60,11 @@ typer('body')
   .continue('cat e', 100)
   .continue('xperience.txt ', 0) // tab completion
   .line()
-  .line('Summer 2018: Incoming Software Engineering Intern at ViaSat', 0)
+  .line('Summer 2018 -> Incoming Software Engineering Intern at ViaSat', 0)
   .line()
-  .line('Summer 2017: Network Engineering Intern at Verizon', 0)
+  .line('Summer 2017 -> Network Engineering Intern at Verizon', 0)
   .line()
-  .line('Summer 2016: Undergraduate Research Assistant at UIUC',0)
+  .line('Summer 2016 -> Undergraduate Research Assistant at UIUC',0)
   .line()
   .line('[<span style="color: #df005e">krikorian</span><span style="color: #e0d55a">@home</span>:</span><span style="color: #53d1ed">~/site</span>]$ </span>', 0)
   .pause(1250)
@@ -60,7 +84,7 @@ typer('body')
   .pause(1250)
 
   // sudo shutdown -h now
-  .continue('kill -9 $(ps -p $PPID -o ppid=)')
+  .continue('sudo kill -9 $(ps -p $PPID -o ppid=)')
 
   //.line('</span>', 0)
 
